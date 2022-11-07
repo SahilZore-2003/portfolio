@@ -1054,8 +1054,35 @@ body.dark-theme{
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      margin-left: 3rem;
       
       
    }
+
+   .header{
+      top: 0;
+      bottom: initial;
+   }
+
+   .header,.main,.footer__container{
+      padding: 0 1rem;
+   }
+
+   .nav{
+      height: calc(var(--header-height)+1.5rem);
+   }
  
+}
+
+/* for large devices  */
+@media screen and (min-width:1024px) {
+   .header,.main,.footer__container{
+      padding: 0;
+   }
+   .home__blob{
+      width: 326px;
+   }
+   .home__social{
+      transform: translateX(-6rem);
+   }
 }
