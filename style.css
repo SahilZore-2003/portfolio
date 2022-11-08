@@ -1076,9 +1076,7 @@ body.dark-theme{
       padding-left: 15rem;
    }
  
-   header{
-      display: none;
-   }
+  
 
    .section__subtitle,.section__title{
       text-align: center;
@@ -1109,6 +1107,25 @@ body.dark-theme{
    position: relative;
    top: -244px;
    left: 755px;
+  }
+
+  .nav__btns{
+   display: none;
+  }
+
+  .nav__close{
+   display: none;
+  }
+  .header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+
+  .nav__list{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
   }
 }
 
