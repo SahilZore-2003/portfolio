@@ -1110,7 +1110,7 @@ body.dark-theme{
   }
 
   .nav__btns{
-   display: none;
+   display: block;
   }
 
   .nav__close{
@@ -1127,5 +1127,10 @@ body.dark-theme{
     align-items: center;
     margin-top: 1rem;
   }
+
+  .uil-apps{
+   display: none;
+  }
+ 
 }
 
